@@ -1,0 +1,139 @@
+
+.form{
+    background-color: rgba(183, 197, 220, 0.642);
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.dum{
+    width: 100px;
+    height: 100px;
+    background-color: none;
+    border-radius: 50px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-size: larger;
+    font-weight: bold;
+}
+.dim{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.div{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-weight: 900;
+}
+.qoshimcha{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+
+.raw{
+    margin-left: 50px;
+}
+img{
+    width: 20px;
+    height: 20px;
+
+}
+.a{
+    display: flex;
+    align-items: center;
+}
+.inp{
+    font-weight: 900;
+    font-size: 20px;
+    background-color: aliceblue;
+    height: 30px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.thickness-options{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.size-options{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+.size-option{
+    width: 70px;
+    height: 70px;
+    background-color: none;
+    border-radius: 50px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-size: large;
+    font-weight: bold;
+}
+.size-option2{
+    width: 80px;
+    height: 80px;
+    background-color: none;
+    border-radius: 50px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-size: larger;
+    font-weight: bold;
+}
+.size-option3{
+    width: 90px;
+    height: 90px;
+    background-color: none;
+    border-radius: 50px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-size: larger;
+    font-weight: bold;
+}
+.topping-options{
+    display: flex;
+      
+}
+.selected-thickness{
+    height: 90px   ;
+}
+.selected-size{
+    height: 120px;
+}
+
+   body{
+    background-image: url(./big.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.buyurtma{
+    width: 170px;
+    height: 50px;
+    background: fixed;
+    border: 3px solid green;
+    border-radius: 50px;
+    color: green;
+    position: absolute;
+    top: 530px;
+}

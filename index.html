@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="qat1"> <div class="pizza-options">
+             <h1>Qanday goshtdan bolsin:</h1>
+          <div class="thickness-options">
+           
+            <div class="thickness-option" data-thickness="Mol goshtidan">Mol goshtidan</div> <br>
+            <div class="thickness-option" data-thickness="Qoy goshtidan">Qoy goshtidan</div> <br>
+            <div class="thickness-option" data-thickness="Tovuqli">Tovuqli</div>
+          </div>
+          <h1>Kattaligi:</h1>
+          <div class="size-options">
+            <div class="size-option" data-size="Kichik">Kichik</div>
+            <div class="size-option2" data-size="Orta">Orta</div>
+            <div class="size-option3" data-size="Katta">Katta</div>
+          </div>
+        </div>
+      
+        <h1>Ichiga nima solaylik:</h1>
+        <div class="topping-options">
+            <div class="raw1"> <input type="checkbox" id="tomato" value="Pomidor">
+          <label for="tomato">Pomidor</label><br>
+          <input type="checkbox" id="pepperoni" value="Bodring">
+          <label for="pepperoni">Bodring</label><br>
+          <input type="checkbox" id="meat" value="Sir">
+          <label for="meat">Sir</label><br></div>
+
+         <div class="raw2"> <input type="checkbox" id="mushrooms" value="Qoziqorin">
+          <label for="mushrooms">Qoziqorin</label><br>
+          </div>
+         
+        </div>
+            <h1>Achiq solinsinmi:</h1>
+            <div class="checkbox-container">
+              <div>
+                <input type="checkbox" id="checkbox1" class="checkbox" name="checkbox" value="Achiq bolsin">
+                <label for="checkbox1">Ha</label>
+              </div>
+              <div>
+                <input type="checkbox" id="checkbox2" class="checkbox" name="checkbox" value="Achiq bolmaisn">
+                <label for="checkbox2">Yoq</label>
+              </div>
+            </div>
+            <div class="selected-checkbox">
+              <span id="selected-checkbox-name"></span>
+            </div>
+          </div>
+          
+    
+         <div class="qat2">
+        <div class="selected-options">
+            <div class="selected-thickness"><h1>Non:</h1> <span id="selected-thickness"></span></div>
+            <div class="selected-size"><h1>Kattalik:</h1> <span id="selected-size"></span></div>
+          </div>
+           <div class="selected-toppings">
+          <div class="topping-option"><h1>Ichiga Qoshimchalar:</h1></div>
+           
+        </div>
+       
+        <button id="buyurtma" class="buyurtma">Buyurtma berish</button>
+      </div>
+      
+      </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
